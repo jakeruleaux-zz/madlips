@@ -4,7 +4,7 @@ $(document).ready(function() {
 
     libs.forEach(function(lib) {
     var userInput = $("input#" +lib).val();
-    $("." + lib).text(unserInput);
+    $("." + lib).text(userInput);
   });
 
 
